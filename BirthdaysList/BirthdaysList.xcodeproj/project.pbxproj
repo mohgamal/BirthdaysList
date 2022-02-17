@@ -95,9 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				9C46FA8027BEB1BE00AE8605 /* AppFiles */,
+				9C46FA8527BEB25200AE8605 /* SupportingFiles */,
 				9C46FA8127BEB1DB00AE8605 /* Scenes */,
 				9C46FA8227BEB1E300AE8605 /* Models */,
-				9C46FA5A27BEB1A200AE8605 /* Assets.xcassets */,
 				9C46FA5C27BEB1A200AE8605 /* Preview Content */,
 			);
 			path = BirthdaysList;
@@ -106,7 +106,6 @@
 		9C46FA5C27BEB1A200AE8605 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9C46FA5D27BEB1A200AE8605 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -165,6 +164,15 @@
 			children = (
 			);
 			path = BirthdaytDetails;
+			sourceTree = "<group>";
+		};
+		9C46FA8527BEB25200AE8605 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9C46FA5D27BEB1A200AE8605 /* Preview Assets.xcassets */,
+				9C46FA5A27BEB1A200AE8605 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
