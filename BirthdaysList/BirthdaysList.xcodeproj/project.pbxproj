@@ -108,16 +108,8 @@
 				9C46FA8527BEB25200AE8605 /* SupportingFiles */,
 				9C46FA8127BEB1DB00AE8605 /* Scenes */,
 				9C46FA8227BEB1E300AE8605 /* Models */,
-				9C46FA5C27BEB1A200AE8605 /* Preview Content */,
 			);
 			path = BirthdaysList;
-			sourceTree = "<group>";
-		};
-		9C46FA5C27BEB1A200AE8605 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		9C46FA6627BEB1A200AE8605 /* BirthdaysListTests */ = {
@@ -494,7 +486,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BirthdaysList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BirthdaysList/SupportingFiles\"";
 				DEVELOPMENT_TEAM = QCBY87LF55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -523,7 +515,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BirthdaysList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BirthdaysList/SupportingFiles\"";
 				DEVELOPMENT_TEAM = QCBY87LF55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
