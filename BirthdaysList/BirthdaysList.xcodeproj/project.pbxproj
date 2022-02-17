@@ -21,6 +21,10 @@
 		9C46FA9027BEB34B00AE8605 /* BirthdayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA8F27BEB34B00AE8605 /* BirthdayModel.swift */; };
 		9C46FA9327BEB4B900AE8605 /* BirthdaysListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA9227BEB4B900AE8605 /* BirthdaysListService.swift */; };
 		9C46FA9527BEB58F00AE8605 /* BirthdaysAppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA9427BEB58F00AE8605 /* BirthdaysAppErrors.swift */; };
+		9C46FA9727BEB67600AE8605 /* BirthdaysListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA9627BEB67600AE8605 /* BirthdaysListViewModel.swift */; };
+		9C46FAA827BEB9DF00AE8605 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C46FA9C27BEB9DF00AE8605 /* Roboto-Regular.ttf */; };
+		9C46FAAF27BEB9DF00AE8605 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C46FAA327BEB9DF00AE8605 /* Roboto-Bold.ttf */; };
+		9C46FAB127BEB9DF00AE8605 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C46FAA527BEB9DF00AE8605 /* Roboto-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,11 @@
 		9C46FA8F27BEB34B00AE8605 /* BirthdayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayModel.swift; sourceTree = "<group>"; };
 		9C46FA9227BEB4B900AE8605 /* BirthdaysListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListService.swift; sourceTree = "<group>"; };
 		9C46FA9427BEB58F00AE8605 /* BirthdaysAppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysAppErrors.swift; sourceTree = "<group>"; };
+		9C46FA9627BEB67600AE8605 /* BirthdaysListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListViewModel.swift; sourceTree = "<group>"; };
+		9C46FA9C27BEB9DF00AE8605 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		9C46FAA327BEB9DF00AE8605 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		9C46FAA527BEB9DF00AE8605 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		9C46FAB227BEBA8200AE8605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +117,7 @@
 		9C46FA5527BEB1A100AE8605 /* BirthdaysList */ = {
 			isa = PBXGroup;
 			children = (
+				9C46FAB227BEBA8200AE8605 /* Info.plist */,
 				9C46FA8027BEB1BE00AE8605 /* AppFiles */,
 				9C46FA8527BEB25200AE8605 /* SupportingFiles */,
 				9C46FA8127BEB1DB00AE8605 /* Scenes */,
@@ -163,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				9C46FA5827BEB1A100AE8605 /* ContentView.swift */,
+				9C46FA9627BEB67600AE8605 /* BirthdaysListViewModel.swift */,
 			);
 			path = Birthdays;
 			sourceTree = "<group>";
@@ -177,6 +188,7 @@
 		9C46FA8527BEB25200AE8605 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				9C46FA9827BEB96800AE8605 /* Fonts */,
 				9C46FA5D27BEB1A200AE8605 /* Preview Assets.xcassets */,
 				9C46FA5A27BEB1A200AE8605 /* Assets.xcassets */,
 				9C46FA9427BEB58F00AE8605 /* BirthdaysAppErrors.swift */,
@@ -202,6 +214,24 @@
 				9C46FA9227BEB4B900AE8605 /* BirthdaysListService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		9C46FA9827BEB96800AE8605 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9C46FA9927BEB9DF00AE8605 /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9C46FA9927BEB9DF00AE8605 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				9C46FA9C27BEB9DF00AE8605 /* Roboto-Regular.ttf */,
+				9C46FAA327BEB9DF00AE8605 /* Roboto-Bold.ttf */,
+				9C46FAA527BEB9DF00AE8605 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +340,9 @@
 			files = (
 				9C46FA5E27BEB1A200AE8605 /* Preview Assets.xcassets in Resources */,
 				9C46FA5B27BEB1A200AE8605 /* Assets.xcassets in Resources */,
+				9C46FAAF27BEB9DF00AE8605 /* Roboto-Bold.ttf in Resources */,
+				9C46FAA827BEB9DF00AE8605 /* Roboto-Regular.ttf in Resources */,
+				9C46FAB127BEB9DF00AE8605 /* Roboto-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +374,7 @@
 				9C46FA5727BEB1A100AE8605 /* BirthdaysListApp.swift in Sources */,
 				9C46FA9327BEB4B900AE8605 /* BirthdaysListService.swift in Sources */,
 				9C46FA8A27BEB30400AE8605 /* InfoModel.swift in Sources */,
+				9C46FA9727BEB67600AE8605 /* BirthdaysListViewModel.swift in Sources */,
 				9C46FA9027BEB34B00AE8605 /* BirthdayModel.swift in Sources */,
 				9C46FA8C27BEB33200AE8605 /* DOBModel.swift in Sources */,
 			);
@@ -506,6 +540,7 @@
 				DEVELOPMENT_TEAM = QCBY87LF55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirthdaysList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -535,6 +570,7 @@
 				DEVELOPMENT_TEAM = QCBY87LF55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirthdaysList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
