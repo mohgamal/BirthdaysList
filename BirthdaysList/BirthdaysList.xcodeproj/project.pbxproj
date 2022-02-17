@@ -19,6 +19,8 @@
 		9C46FA8C27BEB33200AE8605 /* DOBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA8B27BEB33200AE8605 /* DOBModel.swift */; };
 		9C46FA8E27BEB33A00AE8605 /* NameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA8D27BEB33A00AE8605 /* NameModel.swift */; };
 		9C46FA9027BEB34B00AE8605 /* BirthdayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA8F27BEB34B00AE8605 /* BirthdayModel.swift */; };
+		9C46FA9327BEB4B900AE8605 /* BirthdaysListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA9227BEB4B900AE8605 /* BirthdaysListService.swift */; };
+		9C46FA9527BEB58F00AE8605 /* BirthdaysAppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA9427BEB58F00AE8605 /* BirthdaysAppErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		9C46FA8B27BEB33200AE8605 /* DOBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOBModel.swift; sourceTree = "<group>"; };
 		9C46FA8D27BEB33A00AE8605 /* NameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameModel.swift; sourceTree = "<group>"; };
 		9C46FA8F27BEB34B00AE8605 /* BirthdayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayModel.swift; sourceTree = "<group>"; };
+		9C46FA9227BEB4B900AE8605 /* BirthdaysListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListService.swift; sourceTree = "<group>"; };
+		9C46FA9427BEB58F00AE8605 /* BirthdaysAppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysAppErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 				9C46FA8527BEB25200AE8605 /* SupportingFiles */,
 				9C46FA8127BEB1DB00AE8605 /* Scenes */,
 				9C46FA8227BEB1E300AE8605 /* Models */,
+				9C46FA9127BEB4A900AE8605 /* Services */,
 			);
 			path = BirthdaysList;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 			children = (
 				9C46FA5D27BEB1A200AE8605 /* Preview Assets.xcassets */,
 				9C46FA5A27BEB1A200AE8605 /* Assets.xcassets */,
+				9C46FA9427BEB58F00AE8605 /* BirthdaysAppErrors.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -188,6 +194,14 @@
 				9C46FA8B27BEB33200AE8605 /* DOBModel.swift */,
 			);
 			path = BirthdaysModel;
+			sourceTree = "<group>";
+		};
+		9C46FA9127BEB4A900AE8605 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9C46FA9227BEB4B900AE8605 /* BirthdaysListService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,8 +336,10 @@
 			files = (
 				9C46FA8E27BEB33A00AE8605 /* NameModel.swift in Sources */,
 				9C46FA8827BEB2A600AE8605 /* BirthdaysListModel.swift in Sources */,
+				9C46FA9527BEB58F00AE8605 /* BirthdaysAppErrors.swift in Sources */,
 				9C46FA5927BEB1A100AE8605 /* ContentView.swift in Sources */,
 				9C46FA5727BEB1A100AE8605 /* BirthdaysListApp.swift in Sources */,
+				9C46FA9327BEB4B900AE8605 /* BirthdaysListService.swift in Sources */,
 				9C46FA8A27BEB30400AE8605 /* InfoModel.swift in Sources */,
 				9C46FA9027BEB34B00AE8605 /* BirthdayModel.swift in Sources */,
 				9C46FA8C27BEB33200AE8605 /* DOBModel.swift in Sources */,
