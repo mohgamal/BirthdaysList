@@ -29,7 +29,7 @@ struct BirthdaysListView: View {
     var body: some View {
         NavigationView {
             Form {
-                ForEach(birthdaysListVM.birthdaysList.results ?? [], id: \.name?.title) { birthday in
+                ForEach(birthdaysListVM.birthdaysList.results ?? [], id: \.name?.first) { birthday in
                     BirthdayCell(birthdayModel: birthday)
                 }
             }
