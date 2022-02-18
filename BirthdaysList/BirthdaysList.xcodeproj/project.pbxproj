@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9C1B1ED827BFDC600010DC74 /* BirthdayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B1ED727BFDC600010DC74 /* BirthdayCell.swift */; };
 		9C46FA5727BEB1A100AE8605 /* BirthdaysListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA5627BEB1A100AE8605 /* BirthdaysListApp.swift */; };
-		9C46FA5927BEB1A100AE8605 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA5827BEB1A100AE8605 /* ContentView.swift */; };
+		9C46FA5927BEB1A100AE8605 /* BirthdaysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA5827BEB1A100AE8605 /* BirthdaysListView.swift */; };
 		9C46FA5B27BEB1A200AE8605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C46FA5A27BEB1A200AE8605 /* Assets.xcassets */; };
 		9C46FA5E27BEB1A200AE8605 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C46FA5D27BEB1A200AE8605 /* Preview Assets.xcassets */; };
 		9C46FA6827BEB1A200AE8605 /* BirthdaysListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA6727BEB1A200AE8605 /* BirthdaysListTests.swift */; };

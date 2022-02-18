@@ -11,7 +11,8 @@ import SwiftUI
 struct BirthdaysListApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let birthdaysListView = BirthdaysListView(birthdaysListVM: BirthdaysListViewModel(withBirthdaysListService: BirthdaysListService(urlString: "https://randomuser.me/api/?results=1000&seed=chalkboard&inc=name,dob")))
+            birthdaysListView
         }
     }
 }
