@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C1B1ED827BFDC600010DC74 /* BirthdayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B1ED727BFDC600010DC74 /* BirthdayCell.swift */; };
+		9C1B1EDB27BFE1790010DC74 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B1EDA27BFE1790010DC74 /* Utils.swift */; };
 		9C46FA5727BEB1A100AE8605 /* BirthdaysListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA5627BEB1A100AE8605 /* BirthdaysListApp.swift */; };
 		9C46FA5927BEB1A100AE8605 /* BirthdaysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA5827BEB1A100AE8605 /* BirthdaysListView.swift */; };
 		9C46FA5B27BEB1A200AE8605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C46FA5A27BEB1A200AE8605 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		9C1B1ED727BFDC600010DC74 /* BirthdayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCell.swift; sourceTree = "<group>"; };
+		9C1B1EDA27BFE1790010DC74 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		9C46FA5327BEB1A100AE8605 /* BirthdaysList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdaysList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C46FA5627BEB1A100AE8605 /* BirthdaysListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListApp.swift; sourceTree = "<group>"; };
 		9C46FA5827BEB1A100AE8605 /* BirthdaysListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListView.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				9C46FA5D27BEB1A200AE8605 /* Preview Assets.xcassets */,
 				9C46FA5A27BEB1A200AE8605 /* Assets.xcassets */,
 				9C46FA9427BEB58F00AE8605 /* BirthdaysAppErrors.swift */,
+				9C1B1EDA27BFE1790010DC74 /* Utils.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				9C46FA9727BEB67600AE8605 /* BirthdaysListViewModel.swift in Sources */,
 				9C46FA9027BEB34B00AE8605 /* BirthdayModel.swift in Sources */,
 				9C46FA8C27BEB33200AE8605 /* DOBModel.swift in Sources */,
+				9C1B1EDB27BFE1790010DC74 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
