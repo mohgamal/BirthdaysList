@@ -19,7 +19,7 @@ struct BirthdaysListView: View {
         UITableView.appearance().backgroundColor = .clear
         coloredNavAppearance.configureWithOpaqueBackground()
         coloredNavAppearance.backgroundColor = .white
-        coloredNavAppearance.titleTextAttributes = [.foregroundColor: UIColor.black, .font : UIFont(name: "Roboto-Bold", size: 18)!]
+        coloredNavAppearance.titleTextAttributes = [.foregroundColor: UIColor.black, .font : UIFont(name: FontFamily.bold.rawValue, size: 18)!]
         coloredNavAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
 
         UINavigationBar.appearance().standardAppearance = coloredNavAppearance
