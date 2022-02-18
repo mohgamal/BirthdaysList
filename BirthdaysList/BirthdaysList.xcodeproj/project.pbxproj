@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1B1ED827BFDC600010DC74 /* BirthdayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B1ED727BFDC600010DC74 /* BirthdayCell.swift */; };
 		9C46FA5727BEB1A100AE8605 /* BirthdaysListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA5627BEB1A100AE8605 /* BirthdaysListApp.swift */; };
 		9C46FA5927BEB1A100AE8605 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA5827BEB1A100AE8605 /* ContentView.swift */; };
 		9C46FA5B27BEB1A200AE8605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C46FA5A27BEB1A200AE8605 /* Assets.xcassets */; };
@@ -45,9 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C1B1ED727BFDC600010DC74 /* BirthdayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCell.swift; sourceTree = "<group>"; };
 		9C46FA5327BEB1A100AE8605 /* BirthdaysList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdaysList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C46FA5627BEB1A100AE8605 /* BirthdaysListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListApp.swift; sourceTree = "<group>"; };
-		9C46FA5827BEB1A100AE8605 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C46FA5827BEB1A100AE8605 /* BirthdaysListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListView.swift; sourceTree = "<group>"; };
 		9C46FA5A27BEB1A200AE8605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C46FA5D27BEB1A200AE8605 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C46FA6327BEB1A200AE8605 /* BirthdaysListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdaysListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C1B1ED927BFDC640010DC74 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				9C1B1ED727BFDC600010DC74 /* BirthdayCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
 		9C46FA4A27BEB1A100AE8605 = {
 			isa = PBXGroup;
 			children = (
@@ -172,7 +182,8 @@
 		9C46FA8327BEB1F100AE8605 /* Birthdays */ = {
 			isa = PBXGroup;
 			children = (
-				9C46FA5827BEB1A100AE8605 /* ContentView.swift */,
+				9C1B1ED927BFDC640010DC74 /* CustomCells */,
+				9C46FA5827BEB1A100AE8605 /* BirthdaysListView.swift */,
 				9C46FA9627BEB67600AE8605 /* BirthdaysListViewModel.swift */,
 			);
 			path = Birthdays;
@@ -370,7 +381,8 @@
 				9C46FA8E27BEB33A00AE8605 /* NameModel.swift in Sources */,
 				9C46FA8827BEB2A600AE8605 /* BirthdaysListModel.swift in Sources */,
 				9C46FA9527BEB58F00AE8605 /* BirthdaysAppErrors.swift in Sources */,
-				9C46FA5927BEB1A100AE8605 /* ContentView.swift in Sources */,
+				9C1B1ED827BFDC600010DC74 /* BirthdayCell.swift in Sources */,
+				9C46FA5927BEB1A100AE8605 /* BirthdaysListView.swift in Sources */,
 				9C46FA5727BEB1A100AE8605 /* BirthdaysListApp.swift in Sources */,
 				9C46FA9327BEB4B900AE8605 /* BirthdaysListService.swift in Sources */,
 				9C46FA8A27BEB30400AE8605 /* InfoModel.swift in Sources */,
