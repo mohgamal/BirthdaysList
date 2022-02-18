@@ -9,7 +9,8 @@
 
 ## I used MVVM architecture 
 
-## If I had more time I would go with Modular architecture with diferrent dynamic frameworks handling the remote and local data source in (Data layer) , handling all views and custom view in (Presentation layer) , handilng the binding between Data layer and Presentation layer into (Domain layer) and Main Layer of the app which is responsible for running the main app view and handling navigations like Coordinators.
+### If I had more time I would go with Modular architecture with diferrent dynamic frameworks handling the remote and local data source in (Data layer) , handling all views and custom view in (Presentation layer) , handilng the binding between Data layer and Presentation layer into (Domain layer) and Main Layer of the app which is responsible for running the main app view and handling navigations like Coordinators.
+### I would also work on the design style for the views to remove redundency on the styles written in the view elements.
 
 ## My Github Account conttaiong some small repos https://github.com/mohgamal 
 
