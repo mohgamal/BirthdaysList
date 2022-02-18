@@ -11,6 +11,9 @@
 		9C1B1EDB27BFE1790010DC74 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B1EDA27BFE1790010DC74 /* Utils.swift */; };
 		9C1B1EDD27BFE4380010DC74 /* Constamts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B1EDC27BFE4380010DC74 /* Constamts.swift */; };
 		9C1B1EE027BFE6380010DC74 /* BirthdayDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B1EDF27BFE6380010DC74 /* BirthdayDetailsView.swift */; };
+		9C1B1EE527BFF1200010DC74 /* BirthdaysListServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B1EE427BFF1200010DC74 /* BirthdaysListServiceMock.swift */; };
+		9C1B1EE827BFF1AF0010DC74 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B1EE727BFF1AF0010DC74 /* Utils.swift */; };
+		9C1B1EEA27BFF2130010DC74 /* test-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C1B1EE927BFF2130010DC74 /* test-data.json */; };
 		9C46FA5727BEB1A100AE8605 /* BirthdaysListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA5627BEB1A100AE8605 /* BirthdaysListApp.swift */; };
 		9C46FA5927BEB1A100AE8605 /* BirthdaysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46FA5827BEB1A100AE8605 /* BirthdaysListView.swift */; };
 		9C46FA5B27BEB1A200AE8605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C46FA5A27BEB1A200AE8605 /* Assets.xcassets */; };
@@ -53,6 +56,9 @@
 		9C1B1EDA27BFE1790010DC74 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		9C1B1EDC27BFE4380010DC74 /* Constamts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constamts.swift; sourceTree = "<group>"; };
 		9C1B1EDF27BFE6380010DC74 /* BirthdayDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayDetailsView.swift; sourceTree = "<group>"; };
+		9C1B1EE427BFF1200010DC74 /* BirthdaysListServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListServiceMock.swift; sourceTree = "<group>"; };
+		9C1B1EE727BFF1AF0010DC74 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9C1B1EE927BFF2130010DC74 /* test-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "test-data.json"; sourceTree = "<group>"; };
 		9C46FA5327BEB1A100AE8605 /* BirthdaysList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdaysList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C46FA5627BEB1A100AE8605 /* BirthdaysListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListApp.swift; sourceTree = "<group>"; };
 		9C46FA5827BEB1A100AE8605 /* BirthdaysListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListView.swift; sourceTree = "<group>"; };
@@ -120,6 +126,38 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		9C1B1EE127BFF0F00010DC74 /* BirthdaysList */ = {
+			isa = PBXGroup;
+			children = (
+				9C46FA6727BEB1A200AE8605 /* BirthdaysListTests.swift */,
+			);
+			path = BirthdaysList;
+			sourceTree = "<group>";
+		};
+		9C1B1EE227BFF1060010DC74 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				9C1B1EE427BFF1200010DC74 /* BirthdaysListServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		9C1B1EE327BFF10E0010DC74 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				9C1B1EE927BFF2130010DC74 /* test-data.json */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		9C1B1EE627BFF1A50010DC74 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9C1B1EE727BFF1AF0010DC74 /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		9C46FA4A27BEB1A100AE8605 = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +194,10 @@
 		9C46FA6627BEB1A200AE8605 /* BirthdaysListTests */ = {
 			isa = PBXGroup;
 			children = (
-				9C46FA6727BEB1A200AE8605 /* BirthdaysListTests.swift */,
+				9C1B1EE627BFF1A50010DC74 /* Helpers */,
+				9C1B1EE327BFF10E0010DC74 /* TestData */,
+				9C1B1EE227BFF1060010DC74 /* Mocks */,
+				9C1B1EE127BFF0F00010DC74 /* BirthdaysList */,
 			);
 			path = BirthdaysListTests;
 			sourceTree = "<group>";
@@ -378,6 +419,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1B1EEA27BFF2130010DC74 /* test-data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +458,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1B1EE527BFF1200010DC74 /* BirthdaysListServiceMock.swift in Sources */,
 				9C46FA6827BEB1A200AE8605 /* BirthdaysListTests.swift in Sources */,
+				9C1B1EE827BFF1AF0010DC74 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
