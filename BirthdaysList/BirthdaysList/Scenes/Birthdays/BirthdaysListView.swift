@@ -30,7 +30,7 @@ struct BirthdaysListView: View {
         NavigationView {
             Form {
                 ForEach(birthdaysListVM.birthdaysList.results ?? [], id: \.name?.first) { birthday in
-                    BirthdayCell(birthdayModel: birthday)
+                        BirthdayCell(birthdayModel: birthday)
                 }
             }
             .navigationTitle("Birthdays")
